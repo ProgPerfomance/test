@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 context.read<CounterBloc>().add(CounterDec());
               },
-              child: Text('-')),
+              child: Text('ok')),
         ],
       ),
     );
